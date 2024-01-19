@@ -3,6 +3,7 @@ body {background-color: #666;}
 .card,
 .card * {
   box-sizing: border-box;
+  position: relative;
 }
 .card {
   display: flex;
@@ -30,6 +31,8 @@ body {background-color: #666;}
   top: 0px;
 }
 .text {
+ position: absolute;
+ left: 180px;
   display: flex;
   flex-direction: row;
   gap: 144px;
